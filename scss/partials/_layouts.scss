@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+// Styling Nav bar
+nav {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 2px 455px;
+    margin-top: -85px;
+    font-size: 0.750em;
+    font-family: $font-stack3;
+    background-color: $background-color2;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: $primary-color1;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    color: $hover-color;
+}
+
+// styling index header content
+

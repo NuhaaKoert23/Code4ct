@@ -1,3 +1,39 @@
-.clearfix:before,.clearfix:after {content: " "; display: table;}
-            .clearfix:after {clear: both;}
-            .clearfix {*zoom: 1;}
+html {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  height: 100px;
+  background-color: wh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 2px 455px;
+  margin-top: -85px;
+  font-size: 0.75em;
+  font-family: "Poppins", sans-regular;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666666;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: #ee534f;
+}
+
+/*# sourceMappingURL=styles.css.map */
