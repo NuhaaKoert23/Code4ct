@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,34 @@
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/styles.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" intergrity="sha384-B4dIYHKNBt88c12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" intergrity="sha384-B4dIYHKNBt88c12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 
     <script type="text/javascript">
-        function active () {
+        function active() {
             var searchbar = document.getElementById(searchbar);
 
-            if(searchbar.value =='search..'){
+            if (searchbar.value == 'search..') {
                 searchbar = ''
-                searchbar.placeholder= 'search..'
+                searchbar.placeholder = 'search..'
             }
         }
-        function inactive () {
+        function inactive() {
             var searchbar = document.getElementById(searchbar);
 
-            if(searchbar.value ==''){
+            if (searchbar.value == '') {
                 searchbar = 'search..'
-                searchbar.placeholder= ''
+                searchbar.placeholder = ''
             }
         }
     </script>
-    
+
 </head>
+
 <body>
     <nav>
         <img src="./img/code4ct-logo-1.jpg" alt="">
-        <div class="NavText">
+        <div class="navtext">
             <ul>
                 <div>
                     <li><a href="index.html">HOME</a></li>
@@ -58,26 +61,32 @@
         </div>
 
         <form class="search" action="search.php" method="post">
-            <input type="text" placeholder="" value="search.." id="searchbar" autocomplete="on" onmousedown="active();" onblur="inactive();">
+            <input type="text" placeholder="" value="search.." id="searchbar" autocomplete="on" onmousedown="active();"
+                onblur="inactive();">
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
-        
+
     </nav>
-    
-    <div class="homepageheader">
-        <div class="home_pageheader">
-            <h1>Young Women Leveraging Tech for Social Innovation</h1>
+
+    <div class="container1">
+        <div class="smallblock">
+            <div class="home_pageheader">
+                <h1>Young Women Leveraging Tech for Social Innovation</h1>
+            </div>
+
+            <p>We want to see young women empowered to leverage technology for social innovation, so that there is
+                greater diversity in the African tech industry. We want high school girls to have an enabling
+                environment to imagine and create new technology that is relevant to a South African context.</p>
+
+            <div class="bigbuttons">
+                <a href="./courses.html"><button>START CODING</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScMOCb1hbdqi6JKZsj2VSaPDTyMDmV-0bt3kT9nreMpXubjYQ/viewform"><button>DONATE</button></a>
+            </div>
         </div>
 
-        <p>We want to see young women empowered to leverage technology for social innovation, so that there is greater diversity in the African tech industry. We want high school girls to have an enabling environment to imagine and create new technology that is relevant to a South African context.</p>
-
-        <div class="bigbuttons">
-            <button><a href="./courses.html">START CODING</a></button>
-            <button><a href="https://docs.google.com/forms/d/e/1FAIpQLScMOCb1hbdqi6JKZsj2VSaPDTyMDmV-0bt3kT9nreMpXubjYQ/viewform">DONATE</a></button>
-        </div>
     </div>
 
-    <div class="information1">
+    <div class="container2">
         <div class="whoweare">
             <div class="header2">
                 <h2>Who we are</h2>
@@ -86,8 +95,11 @@
             </div>
 
             <div class="describe_who_we_are">
-                <h4>Code for Cape Town strives to see young women empowered to leverage technology for social innovation.</h4>
-                <p class="p1">So that there is greater diversity in the African tech industry. Code for Cape Town equips high potential female learners with the coding, problem solving and life skills that will allow them to leverage technology to contribute meaningfully to South Africa's innovation system.</p>
+                <h4>Code for Cape Town strives to see young women empowered to leverage technology for social
+                    innovation.</h4>
+                <p class="p1">So that there is greater diversity in the African tech industry. Code for Cape Town
+                    equips high potential female learners with the coding, problem solving and life skills that will
+                    allow them to leverage technology to contribute meaningfully to South Africa's innovation system.</p>
             </div>
 
             <div class="readmorebtn">
@@ -111,71 +123,84 @@
             </div>
 
             <div class="W=wimg4">
-                    <img src="./img/who-we-are4.jpg" alt="">
+                <img src="./img/who-we-are4.jpg" alt="">
             </div>
         </div>
     </div>
 
-    <div class="coding_problemsolving_careerguidance">
-        <div class="coding">
-            <div class="cpcIcon">
-                <i class="fas fa-desktop"></i>
-            </div>
+    <div class="container3">
+        <div id="ccpc">
+            <div class="coding">
+                <div class="cpcIcon">
+                    <i class="fas fa-desktop"></i>
+                </div>
 
-        
+
                 <h3>Coding</h3>
                 <p>
-                    Learn how to build your own websites using HTML, CSS, JavaScript & JQuery. Go on to explore exciting modules from game development to user experience design.
+                    Learn how to build your own websites using HTML, CSS, JavaScript & JQuery. Go on to explore
+                    exciting
+                    modules from game development to user experience design.
                 </p>
-            
-        </div>
 
-        <div class="communication">
-            <div class="cpcIcon">
-                <i class="fas fa-volume-up"></i>
             </div>
 
-            <h3>Communication</h3>
-            <p>Learn how to pitch ideas, represent yourself online, communicate professionally and work with online collaboration tools.</p>
-        </div>
-        
-        <div class="problem_solving">
-            <div class="cpcIcon">
-                <i class="fas fa-print"></i>
+            <div class="communication">
+                <div class="cpcIcon">
+                    <i class="fas fa-volume-up"></i>
+                </div>
+
+                <h3>Communication</h3>
+                <p>Learn how to pitch ideas, represent yourself online, communicate professionally and work with online
+                    collaboration tools.</p>
             </div>
 
-        
+            <div class="problem_solving">
+                <div class="cpcIcon">
+                    <i class="fas fa-print"></i>
+                </div>
+
+
                 <h3>Problem Solving</h3>
                 <p>
-                    Apply your coding skills to issues you are interested in. You will learn how to tackle complex problems using the design thinking process.
+                    Apply your coding skills to issues you are interested in. You will learn how to tackle complex
+                    problems
+                    using the design thinking process.
                 </p>
-            
-        </div>
 
-        <div class="career_guidance">
-            <div class="cpcIcon">
-                <i class="fas fa-camera-retro"></i>
             </div>
 
-            
+            <div class="career_guidance">
+                <div class="cpcIcon">
+                    <i class="fas fa-camera-retro"></i>
+                </div>
+
+
                 <h3>Career Guidance</h3>
                 <p>
-                    Explore future options by meeting different companies doing exciting things with technology. We offer career testing and connect you to our network of study institutions and bursary programs.
+                    Explore future options by meeting different companies doing exciting things with technology. We
+                    offer
+                    career testing and connect you to our network of study institutions and bursary programs.
                 </p>
-            
+
+            </div>
         </div>
+
     </div>
 
-    <div class="our_exciting_course">
+    <div class="container4">
         <div class="header3">
             <h2>Our Exciting Courses</h2>
-                <div class="line-border3" type="box"></div>
-                <div class="line-border4" type="box"></div>
+            <div class="line-border" type="box"></div>
+            <div class="line-border2" type="box"></div>
         </div>
 
         <div class="describe_course">
             <p>
-                We equip high potential female learners with coding, problem solving and life skills that will allow them to leverage technology to contribute meaningfully to South Africa's innovation system. The program exposes young women to how technology can be used for social innovation and helps them navigate critical study decisions.
+                We equip high potential female learners with coding, problem solving and life skills that will allow
+                them to leverage technology to contribute meaningfully to South Africa's innovation system. The program
+                exposes young women to how technology can be used for social innovation and helps them navigate
+                critical study decisions.
             </p>
         </div>
 
@@ -193,7 +218,7 @@
         </div>
     </div>
 
-    <div class="meet_our_team">
+    <div class="container5">
         <div class="header4">
             <h2>Meet Our Team</h2>
             <div class="line-border3" type="box"></div>
@@ -201,7 +226,8 @@
         </div>
 
         <div class="meet_our_team_des">
-        <p>These photos tell stories of Tech savy women who are changing the face of technology. We hope these photos inspire young women to consider tech in new ways</p>
+            <p>These photos tell stories of Tech savy women who are changing the face of technology. We hope these
+                photos inspire young women to consider tech in new ways</p>
         </div>
 
         <div class="members">
@@ -215,7 +241,8 @@
                     <h3>Emma Dicks</h3>
                     <p class="p1">Founder and Director</p>
                     <div class="line-border4" type="box"></div>
-                    <p class="p2">Emma is passionate about providing high quality education that enables young people to bring innovative ideas to life and play an active role in South Africa's economy.</p>
+                    <p class="p2">Emma is passionate about providing high quality education that enables young people
+                        to bring innovative ideas to life and play an active role in South Africa's economy.</p>
                     <div class="memberIcons">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -234,9 +261,10 @@
 
                 <div class="memberDescription">
                     <h3>Tegan Crous</h3>
-                    <p class="p1">Program Lead</p> 
+                    <p class="p1">Program Lead</p>
                     <div class="line-border4" type="box"></div>
-                    <p class="p2">Tegan heads up the high school program, she is spurred on by a heart for people and seeing them pursue their potential in a safe, fun and nuturing environment.</p>
+                    <p class="p2">Tegan heads up the high school program, she is spurred on by a heart for people and
+                        seeing them pursue their potential in a safe, fun and nuturing environment.</p>
                     <div class="memberIcons">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -246,7 +274,7 @@
                         <a href=""><i class="fab fa-skype"></i></a>
                     </div>
                 </div>
-                
+
             </div>
 
             <div class="member1">
@@ -258,7 +286,8 @@
                     <h3>Tracy-Anne Sikenjana</h3>
                     <p class="p1">Leadership Program Manager</p>
                     <div class="line-border4" type="box"></div>
-                    <p class="p2">Tracy joined the Code4CT program in 2015, she decided to intern with Code4CT in 2016 to give back to an organisation that had a large impact on her personal growth and development.</p>
+                    <p class="p2">Tracy joined the Code4CT program in 2015, she decided to intern with Code4CT in 2016
+                        to give back to an organisation that had a large impact on her personal growth and development.</p>
                     <div class="memberIcons">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -272,26 +301,26 @@
             </div>
 
             <div class="member1">
-                    <div class="memberImg">
-                        <a href=""><img src="" alt=""></a>
-                    </div>
+                <div class="memberImg">
+                    <a href=""><img src="" alt=""></a>
+                </div>
 
-                    <div class="memberDescription">
-                        <h3>Buhle Mlingwana</h3>
-                        <p class="p1">Operations Lead</p>
-                        <div class="line-border4" type="box"></div>
-                        <p class="p2">Andrea thrives on seeing key players in the Code4CT ecosystem discover how they
-                            can make the greatest impact.</p>
-                        <div class="memberIcons">
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                            <a href=""><i class="fab fa-twitter"></i></a>
-                            <a href=""><i class="fab fa-pinterest-p"></i></a>
-                            <a href=""><i class="fab fa-google-plus-g"></i></a>
-                            <a href=""><i class="fab fa-linkedin-in"></i></a>
-                            <a href=""><i class="fab fa-skype"></i></a>
-                        </div>
+                <div class="memberDescription">
+                    <h3>Buhle Mlingwana</h3>
+                    <p class="p1">Operations Lead</p>
+                    <div class="line-border4" type="box"></div>
+                    <p class="p2">Andrea thrives on seeing key players in the Code4CT ecosystem discover how they
+                        can make the greatest impact.</p>
+                    <div class="memberIcons">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-pinterest-p"></i></a>
+                        <a href=""><i class="fab fa-google-plus-g"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href=""><i class="fab fa-skype"></i></a>
                     </div>
                 </div>
+            </div>
 
         </div>
 
@@ -335,7 +364,7 @@
                 <h3>SUBSCRIBE TO US</h3>
             </div>
         </div>
-        
+
 
         <div class="subscribe_to_us">
             <p>Describe to our news letter to stay up to date with out latest developments</p>
@@ -352,99 +381,99 @@
                     <div class="carouselimg">
                         <span><img src="./img/carousel1.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel2.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel3.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel4.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel5.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel6.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel7.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel8.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel9.png" alt=""></span>
                     </div>
                 </li>
-                
+
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel10.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel11.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel12.png" alt=""></span>
                     </div>
                 </li>
-                
+
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel13.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel14.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel15.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
 
                 <li>
                     <div class="carouselimg">
                         <span><img src="./img/carousel16.png" alt=""></span>
                     </div>
-                </li> 
+                </li>
             </ul>
-            
+
         </div>
     </div>
 
@@ -452,13 +481,14 @@
         <div class="footer-col">
             <div class="col">
                 <h4>Legal</h4>
-                <p>Code for Cape Town is a project of Innovate South Africa, which is a registered non-profit (137806NPO) and a Public Beneficiary Organisation (930050338)</p>
+                <p>Code for Cape Town is a project of Innovate South Africa, which is a registered non-profit
+                    (137806NPO) and a Public Beneficiary Organisation (930050338)</p>
                 <p>021 685 0991</p>
                 <p>info@code4ct.com</p>
                 <p>403 Old Castle Brewery, 6 Beach Rd,</p>
                 <p>Woodstock, Cape Town, 7915</p>
             </div>
-    
+
             <div class="col">
                 <h4>Company</h4>
                 <ul>
@@ -469,7 +499,7 @@
                     <li><a href="">Affiliate program</a></li>
                 </ul>
             </div>
-    
+
             <div class="col">
                 <h4>Help & Support</h4>
                 <ul>
@@ -479,7 +509,7 @@
                     <li><a href="">Report spam</a></li>
                 </ul>
             </div>
-    
+
             <div class="col">
                 <h4>Courses</h4>
                 <ul>
@@ -490,15 +520,15 @@
                 </ul>
             </div>
         </div>
-            
+
         <section>
             <p>copyright &copy; 2017 PRIVATE POLICY</p>
             <p>follow us: <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-pinterest-p"></i></a>
-                    <a href=""><i class="fab fa-google-plus-g"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a href=""><i class="fab fa-skype"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-skype"></i></a>
             </p>
         </section>
     </footer>
@@ -506,49 +536,49 @@
     <script src="main.js"></script>
 
     <script>
-        $(document).ready(function(){
-        $slides = $('.slides');
-        $slides.bind('contentchanged', function(){
-        animate($slides);
-  });
-  animate($slides);
-});
-function animate($slides){
-  var slidesLength = $slides.find('li').length;
-  if(slidesLength>4){
-    $slides.find('li:nth-last-child(-n+4)').clone().prependTo($slides);
-    $slides.addClass('.animate');
-    $slides.css('animation-duration', slidesLength*3+'s');
-  }
-}
+        $(document).ready(function () {
+            $slides = $('.slides');
+            $slides.bind('contentchanged', function () {
+                animate($slides);
+            });
+            animate($slides);
+        });
+        function animate($slides) {
+            var slidesLength = $slides.find('li').length;
+            if (slidesLength > 4) {
+                $slides.find('li:nth-last-child(-n+4)').clone().prependTo($slides);
+                $slides.addClass('.animate');
+                $slides.css('animation-duration', slidesLength * 3 + 's');
+            }
+        }
     </script>
-     <script>
-            var countLeftForCoffee=0;
-            var countLeftForGirls=280;
-            var countLeftForProjects=2680;
-            var countLeftForHours=8265;
-            var cups_of_coffee=document.getElementById("cups_of_coffee");
-            var number_of_girls=document.getElementById("number_of_girls");
-            var projects_completed=document.getElementById("projects_completed");
-            var hours_of_coding=document.getElementById("hours_of_coding");
-            var countdown=setInterval(function(){
-            cups_of_coffee.innerHTML=countLeftForCoffee;
-            number_of_girls.innerHTML=countLeftForGirls;
-            projects_completed.innerHTML=countLeftForProjects;
-            hours_of_coding.innerHTML=countLeftForHours;
-                if (countLeftForCoffee===3000) {
+    <script>
+        var countLeftForCoffee = 0;
+        var countLeftForGirls = 280;
+        var countLeftForProjects = 2680;
+        var countLeftForHours = 8265;
+        var cups_of_coffee = document.getElementById("cups_of_coffee");
+        var number_of_girls = document.getElementById("number_of_girls");
+        var projects_completed = document.getElementById("projects_completed");
+        var hours_of_coding = document.getElementById("hours_of_coding");
+        var countdown = setInterval(function () {
+            cups_of_coffee.innerHTML = countLeftForCoffee;
+            number_of_girls.innerHTML = countLeftForGirls;
+            projects_completed.innerHTML = countLeftForProjects;
+            hours_of_coding.innerHTML = countLeftForHours;
+            if (countLeftForCoffee === 3000) {
                 clearInterval(countdown);
-                cups_of_coffee.innerHTML= "3000+";
-                number_of_girls.innerHTML="780+";
-                projects_completed.innerHTML ="3120+";
-                hours_of_coding.innerHTML= "8765+";
-                } countLeftForCoffee+=10;
-                countLeftForGirls++;
-                countLeftForProjects++;
-                countLeftForHours++;
-            },
+                cups_of_coffee.innerHTML = "3000+";
+                number_of_girls.innerHTML = "780+";
+                projects_completed.innerHTML = "3120+";
+                hours_of_coding.innerHTML = "8765+";
+            } countLeftForCoffee += 10;
+            countLeftForGirls++;
+            countLeftForProjects++;
+            countLeftForHours++;
+        },
             1);
     </script>
 </body>
-</html>
 
+</html>

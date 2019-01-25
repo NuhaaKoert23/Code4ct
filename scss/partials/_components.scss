@@ -1,0 +1,64 @@
+/* Style the search field */
+form.search input[type=text] {
+    margin-left:90px;
+    font-size: 0.625em;
+    border: 1px solid $primary-color1;
+    border-radius: 2px;
+    float: left;
+    width: 180px;
+    height: 25px;
+    background-color: $background-color2;
+    font-family: $font-stack;
+}
+
+form.search button {
+    height: 29px;
+    border: 1px solid $primary-color1;
+    border-radius: 2px;
+    color: $hover-color;
+    background-color: $primary-color2;
+    border-left: none;
+    width: 25px;
+}
+
+// styling of buttons in header
+.bigbuttons {
+    padding: 20px 450px;
+
+    button {
+    width: 130px;
+    height: 43px;
+    border-radius: 3px;
+    border: 1.5px solid $primary-color3;
+    color: white;
+    background-color: $black;
+    font-family: $font-stack;
+    font-size: 0.625em;
+    position: relative;
+    }
+
+    button:hover {
+    background-color: $hover-color;
+    width: 137.5px;
+    }
+}
+
+// Home page readmore btn 
+.readmorebtn{
+    margin-top: 50px;
+    button {
+        font-family: $font-stack2;
+        border: 1px solid $primary-color4;
+        background-color: $background-color2;
+        width: 160px;
+        height: 40px;
+    }
+   
+    a {
+        text-decoration: none;
+        color: $primary-color1;
+        font-size: 1em;
+    }
+ 
+}
+
