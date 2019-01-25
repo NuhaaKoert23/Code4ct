@@ -63,12 +63,25 @@
     .ccpc {
         h3 {
             font-family: $font-stack5;
-            color: $primary-color5
+            color: $primary-color5;
+            font-size:1.250em;
         }
 
         p {
             color: $primary-color5;
-            width: 100px;
+            // width: 100px;
+            font-size: 0.875em;
+        }
+    }
+}
+
+//container 4
+.container4 {
+    .describe_course {
+        p {
+            font-family: $font-stack4;
+            font-size: 0.875em;
+            color: $primary-color1;
         }
     }
 }

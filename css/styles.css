@@ -53,6 +53,7 @@
 .container3 .ccpc p {
   color: #333333;
   width: 100px;
+  font-size: 0.875em;
 }
 
 body {
@@ -153,11 +154,13 @@ nav a:hover {
   margin-left: 150px;
   margin-right: 150px;
   text-align: center;
-  width: 100%;
+  width: min-content;
 }
 
 .container4 {
   margin-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 /* Style the search field */
