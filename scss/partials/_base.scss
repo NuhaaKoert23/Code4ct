@@ -85,3 +85,24 @@
         }
     }
 }
+
+// container 5 
+.container5 {
+    .header4 {
+        h2 {
+            font-family: $font-stack5;
+            color: $primary-color5;
+        }
+    }
+    .meet_our_team_des {
+        p {
+            margin-top: 20px;
+            font-family: $font-stack4;
+            color: $primary-color1;
+        }
+    }
+
+    .memberDescription {
+        width: 203px;
+    }
+}

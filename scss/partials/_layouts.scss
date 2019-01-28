@@ -96,14 +96,16 @@ nav a:hover {
 .container3 {
     background-color: $hover-color;
     margin-top: 100px;
-    height: 300px;
+    height: 250px;
 
     #ccpc {
         display: grid;
         grid-template-columns: repeat(4,1fr);
         margin-left: 150px;
         margin-right: 150px;
+        height: 200px;
         text-align: center;
+        margin-top: 30px;
         // width: min-content;
     }
     
@@ -116,15 +118,30 @@ nav a:hover {
     margin-right: 150px;
 
     .coursesImgs {
+        margin-top: 50px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         width: min-content;
+        grid-gap: 15px;
 
         .imgs {
             display: grid;
             grid-template-columns: repeat(2,1fr);
             grid-template-rows: repeat(2,1fr);
             width: min-content;
+            grid-gap: 10px;
+            
+            img {
+                width: 300px;
+                height: 200px;
+            }
+        }
+
+        .bigimg {
+            img {
+                width: 575px;
+                height: 410px;
+            }
         }
     }
 }
@@ -134,4 +151,37 @@ nav a:hover {
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
+
+    .members {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+        margin-top: 50px;
+        .member {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            width: min-content;
+            margin-left: 10px;
+
+            .memberImg {
+                img {
+                    width: 270px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+
+}
+   
+// project status
+.container6 {
+    background-color: $hover-color;
+    .project_status {
+        margin-left: 150px;
+        margin-right: 150px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
 }
