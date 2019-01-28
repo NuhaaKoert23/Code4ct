@@ -292,6 +292,8 @@ nav a:hover {
 
 // container 12 
 .container12 {
+    background-color: $light-grey;
+    margin-top: 100px;
     article {
         display: grid;
         grid-template-columns: repeat(2,1fr);

@@ -65,8 +65,11 @@ form.search button {
 // about page 
 .container11 {
     .coursesbtn {
-        width: 160px;
-        height: 40px;
-        background-color: $hover-color;
+        button {
+            width: 160px;
+            height: 40px;
+            background-color: $hover-color;
+        }
+        
     }
 }

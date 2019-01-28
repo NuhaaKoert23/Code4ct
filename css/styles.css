@@ -402,6 +402,24 @@ nav a:hover {
   margin-left: 150px;
   margin-right: 150px;
 }
+.container11 .welcometocode4ct .welcomeimgs img {
+  width: 570px;
+  height: 380px;
+}
+
+.container12 {
+  background-color: #cfcdcd;
+}
+.container12 article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+.container12 article img {
+  height: 550px;
+  width: 800px;
+}
+
 footer .footer-col {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -468,6 +486,12 @@ form.search button {
   text-decoration: none;
   color: #666666;
   font-size: 1em;
+}
+
+.container11 .coursesbtn {
+  width: 160px;
+  height: 40px;
+  background-color: #ee534f;
 }
 
 /*# sourceMappingURL=styles.css.map */
