@@ -162,12 +162,32 @@ nav a:hover {
             display: grid;
             grid-template-columns: repeat(2,1fr);
             width: min-content;
-            margin-left: 10px;
 
             .memberImg {
                 img {
                     width: 270px;
                     height: 250px;
+                }
+            }
+
+            .memberDescription {
+                .line-border3 {
+                    width: 249px;
+                    border-top: 1px solid $primary-color1;
+                }
+
+                .memberIcons {
+                    display: grid;
+                    grid-template-columns: repeat(6,1fr);
+                    column-gap: 10px;
+                    i {
+                        color: $primary-color1;
+                    }
+
+                    i:hover {
+                        color: $hover-color;
+                    }
+                    
                 }
             }
         }
@@ -178,10 +198,56 @@ nav a:hover {
 // project status
 .container6 {
     background-color: $hover-color;
+    margin-top: 100px;
+    height: 200px;
     .project_status {
         margin-left: 150px;
         margin-right: 150px;
         display: grid;
         grid-template-columns: repeat(4,1fr);
+        margin-top: 50px;
+
+        .line-border4 {
+            border-top: 4px solid $primary-color6;
+            width: 30px;
+        }
+    }
+}
+
+// subscribe to us 
+.container7 {
+    margin-top: 100px ;
+    // margin-left: 550px;
+    text-align: center;
+    .heading {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: min-content;
+
+        i {
+            color: $hover-color;
+        }
+    }
+    
+    input {
+        width: 370px;
+        height: 40px;
+    }
+}
+
+//carousel 
+.partners {
+    margin-top: 100px;
+    background-color: $hover-color;
+    height: 300px;
+
+    .carousel {
+        display: inline-block;
+        float: left;
+
+        ul {
+            list-style: none;
+        }
+
     }
 }

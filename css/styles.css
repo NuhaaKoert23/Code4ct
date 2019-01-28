@@ -71,6 +71,45 @@
   font-family: "Poppins", sans-light;
   color: #666666;
 }
+.container5 .memberDescription {
+  width: 203px;
+  margin-left: 35px;
+}
+.container5 .memberDescription h3 {
+  font-family: "Poppins", sans-medium;
+  font-size: 1em;
+  color: #333333;
+}
+.container5 .memberDescription p {
+  font-size: 0.825em;
+  color: #666666;
+  font-family: "Poppins", sans-regular;
+  margin-top: -5px;
+}
+
+.container6 .project_status h3 {
+  font-size: 1.875em;
+  font-family: "Poppins", sans-SemiBold;
+  text-align: center;
+}
+.container6 .project_status p {
+  font-size: 1em;
+  font-family: "Poppins", sans-regular;
+  text-align: center;
+}
+
+.container7 .heading .header5 h3 {
+  font-family: "Poppins", sans-SemiBold;
+  font-size: 1.25em;
+  color: #333333;
+  width: 170px;
+}
+.container7 .heading .subscribe_to_us p {
+  font-size: 0.875em;
+  font-family: "Poppins", sans-SemiBold;
+  color: #666666;
+}
+
 body {
   background-color: white;
   margin: 0 10px;
@@ -216,12 +255,70 @@ nav a:hover {
 .container5 .members .member {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 100px;
-  margin-left: 10px;
+  width: min-content;
 }
 .container5 .members .member .memberImg img {
   width: 270px;
   height: 250px;
+}
+.container5 .members .member .memberDescription .line-border3 {
+  width: 249px;
+  border-top: 1px solid #666666;
+}
+.container5 .members .member .memberDescription .memberIcons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+}
+.container5 .members .member .memberDescription .memberIcons i {
+  color: #666666;
+}
+.container5 .members .member .memberDescription .memberIcons i:hover {
+  color: #ee534f;
+}
+
+.container6 {
+  background-color: #ee534f;
+  margin-top: 100px;
+  height: 200px;
+}
+.container6 .project_status {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+}
+.container6 .project_status .line-border4 {
+  border-top: 4px solid #555555;
+  width: 30px;
+}
+
+.container7 {
+  margin-top: 100px;
+  text-align: center;
+}
+.container7 .heading {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: min-content;
+}
+.container7 .heading i {
+  color: #ee534f;
+}
+.container7 input {
+  width: 370px;
+  height: 40px;
+}
+
+.partners {
+  margin-top: 100px;
+  background-color: #ee534f;
+  height: 300px;
+}
+.partners .carousel {
+  display: inline-block;
+  float: left;
 }
 
 /* Style the search field */

@@ -104,5 +104,58 @@
 
     .memberDescription {
         width: 203px;
+        margin-left: 35px;
+
+        h3 {
+            font-family: $font-stack2;
+            font-size: 1em;
+            color: $primary-color5;
+        }
+        p {
+            font-size: 0.825em;
+            color: $primary-color1;
+            font-family: $font-stack3;
+            margin-top: -5px;
+        }
+        
+    }
+}
+
+//container 6 
+.container6 {
+    .project_status {
+        h3 {
+            font-size: 1.875em;
+            font-family: $font-stack5;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1em;
+            font-family: $font-stack3;
+            text-align: center;
+        }
+    }
+}
+
+//container 7
+.container7 {
+    .heading {
+        .header5{
+            h3{
+                font-family: $font-stack5;
+                font-size: 1.250em;
+                color: $primary-color5;
+                width: 170px;
+            }
+        }
+
+        .subscribe_to_us {
+            p {
+                font-size: 0.875em;
+                font-family: $font-stack5;
+                color: $primary-color1;
+            }
+        }
     }
 }
