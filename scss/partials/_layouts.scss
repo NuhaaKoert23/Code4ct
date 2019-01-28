@@ -217,12 +217,12 @@ nav a:hover {
 // subscribe to us 
 .container7 {
     margin-top: 100px ;
-    // margin-left: 550px;
     text-align: center;
     .heading {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         width: min-content;
+        
 
         i {
             color: $hover-color;
@@ -236,18 +236,83 @@ nav a:hover {
 }
 
 //carousel 
-.partners {
+.container8 {
     margin-top: 100px;
     background-color: $hover-color;
     height: 300px;
 
     .carousel {
-        display: inline-block;
-        float: left;
+        margin-left: 150px;
+        margin-right: 150px;
+        display: grid;
+        grid-template-columns: repeat(16,1fr);
+        animation-name: carousel;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        position: relative; left: 100%;
 
-        ul {
-            list-style: none;
+    }
+
+    @keyframes carousel {
+        100% {
+            position: relative; left: -5000px;
         }
+    }
+}
+// courses page
 
+
+
+//about page
+.container10 {
+    background-color: $grey-background;
+    height: 320px;
+    text-align: center;
+}
+
+// container 11 
+.container11 {
+    margin-top: 100px;
+
+    .welcometocode4ct {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 150px;
+        margin-right: 150px;
+
+        .welcomeimgs {
+            img {
+                width: 570px;
+                height: 380px;
+            }
+        }
+    }
+}
+
+// container 12 
+.container12 {
+    article {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+
+        img {
+            height: 550px;
+            width: 800px;
+        }
+    }
+}
+//footer 
+footer {
+    .footer-col {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    section {
+        background-color: $hover-color;
     }
 }

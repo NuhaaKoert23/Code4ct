@@ -98,16 +98,68 @@
   text-align: center;
 }
 
+.container7 .heading {
+  padding: 0 550px 0 0;
+}
 .container7 .heading .header5 h3 {
   font-family: "Poppins", sans-SemiBold;
   font-size: 1.25em;
   color: #333333;
   width: 170px;
 }
-.container7 .heading .subscribe_to_us p {
+.container7 .subscribe_to_us p {
   font-size: 0.875em;
   font-family: "Poppins", sans-SemiBold;
   color: #666666;
+}
+
+.container10 h1 {
+  margin-top: 70px;
+  font-size: 1.875em;
+  font-family: "Poppins", sans-SemiBold;
+  color: #333333;
+}
+.container10 p {
+  font-family: "Poppins", sans-medium;
+  color: #333333;
+  font-size: 0.875em;
+}
+.container10 p:hover {
+  color: #ee534f;
+}
+
+.container11 .header h2 {
+  font-size: 1.5em;
+  font-family: "Poppins", sans-SemiBold;
+  color: #333333;
+}
+.container11 .coursesarticle p {
+  font-family: "Poppins", sans-medium;
+  color: #333333;
+  font-size: 0.875em;
+}
+
+footer h4 {
+  font-family: "Poppins", sans-medium;
+  color: #333333;
+  font-size: 1em;
+}
+footer p {
+  font-family: "Poppins", sans-light;
+  color: #333333;
+  font-size: 0.875em;
+}
+footer i:hover {
+  color: #ee534f;
+}
+footer a {
+  text-decoration: none;
+  font-family: "Poppins", sans-light;
+  color: #333333;
+  font-size: 0.875em;
+}
+footer a:hover {
+  color: #ee534f;
 }
 
 body {
@@ -311,14 +363,53 @@ nav a:hover {
   height: 40px;
 }
 
-.partners {
+.container8 {
   margin-top: 100px;
   background-color: #ee534f;
   height: 300px;
 }
-.partners .carousel {
-  display: inline-block;
-  float: left;
+.container8 .carousel {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  animation-name: carousel;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  left: 100%;
+}
+@keyframes carousel {
+  100% {
+    position: relative;
+    left: -5000px;
+  }
+}
+
+.container10 {
+  background-color: #cfcdcd;
+  height: 320px;
+  text-align: center;
+}
+
+.container11 {
+  margin-top: 100px;
+}
+.container11 .welcometocode4ct {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+footer .footer-col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 150px;
+  margin-right: 150px;
+}
+footer section {
+  background-color: #ee534f;
 }
 
 /* Style the search field */

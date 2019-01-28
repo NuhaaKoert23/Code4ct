@@ -141,6 +141,7 @@
 //container 7
 .container7 {
     .heading {
+        padding: 0 550px 0 0;
         .header5{
             h3{
                 font-family: $font-stack5;
@@ -149,13 +150,84 @@
                 width: 170px;
             }
         }
-
-        .subscribe_to_us {
-            p {
-                font-size: 0.875em;
-                font-family: $font-stack5;
-                color: $primary-color1;
-            }
+    }
+    .subscribe_to_us {
+        p {
+            font-size: 0.875em;
+            font-family: $font-stack5;
+            color: $primary-color1;
         }
+    }
+    
+}
+
+
+//about page
+.container10 {
+    h1 {
+        margin-top: 70px;
+        font-size: 1.875em;
+        font-family: $font-stack5;
+        color: $primary-color5;
+    }
+
+    p {
+        font-family: $font-stack2;
+        color: $primary-color5;
+        font-size: 0.875em;
+    }
+
+    p:hover {
+        color: $hover-color;
+    }
+}
+
+// container 11 {
+.container11 {
+    .header{
+        h2 {
+        font-size: 1.500em;
+        font-family: $font-stack5;
+        color: $primary-color5;
+
+        }
+    }
+    
+
+    .coursesarticle {
+        p {
+            font-family: $font-stack2;
+            color: $primary-color5;
+            font-size: 0.875em;
+        }
+    }
+}
+// footer 
+footer {
+    h4 {
+        font-family: $font-stack2;
+        color: $primary-color5;
+        font-size: 1em;
+    }
+
+    p {
+        font-family: $font-stack4;
+        color: $primary-color5;
+        font-size: 0.875em;
+    }
+
+    i:hover {
+        color: $hover-color;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: $font-stack4;
+        color: $primary-color5;
+        font-size: 0.875em; 
+    }
+
+    a:hover {
+        color: $hover-color;
     }
 }
